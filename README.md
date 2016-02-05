@@ -2,7 +2,7 @@
 
 > An opinionated Webpack setup for `vue-loader` for quick prototyping.
 
-**Wondering why I made this and how it went? Check out my [blog](http://heucke.io/web-dev/)**
+**Wondering why I made this and how it went? Check out my [blog](http://heucke.io/web-dev/).**
 
 ### Usage
 
