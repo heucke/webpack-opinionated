@@ -8,7 +8,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). Incl
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack-opinionated my-project
+$ vue init theucke/webpack-opinionated my-project
 $ cd my-project
 $ npm install
 $ npm run dev
