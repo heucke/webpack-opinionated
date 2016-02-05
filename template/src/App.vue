@@ -6,10 +6,12 @@
 </template>
 
 <script>
+import Hello from './components/Hello.vue'
+
 export default {
   components: {
     Hello
-  }
+  },
   data () {
     return {
       // note: changing this line won't causes changes

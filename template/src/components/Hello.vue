@@ -1,7 +1,7 @@
 <template lang="jade">
 h1 {{ msg }}
 ul
-  li(v-for('fact in facts')) {{ fact.text }}
+  li(v-for='fact in facts') {{ fact.text }}
 </template>
 
 <script>
