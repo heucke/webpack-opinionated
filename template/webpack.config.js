@@ -43,7 +43,8 @@ module.exports = {
   devtool: 'eval-source-map',
   babel: {
     presets: ['es2015', 'stage-0'],
-    plugins: ['transform-runtime']
+    plugins: ['transform-runtime'],
+    comments: false
   }
 }
 
