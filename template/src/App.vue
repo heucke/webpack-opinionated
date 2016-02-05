@@ -2,7 +2,7 @@
 #app
   hello(:msg='msg')
   br
-  input(type='text', v-model='msg', placeholder='edit me')
+  input(type='text', v-model='msg')
 </template>
 
 <script>
