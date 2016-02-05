@@ -1,11 +1,15 @@
-<template>
-  <div id="app">
-    <h1>\{{ msg }}</h1>
-  </div>
+<template lang="jade">
+#app
+  hello(:msg='msg')
+  br
+  input(type='text', v-model='msg', placeholder='edit me')
 </template>
 
 <script>
 export default {
+  components: {
+    Hello
+  }
   data () {
     return {
       // note: changing this line won't causes changes
@@ -18,8 +22,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="sass">
+$font: Helvetica, sans-serif;
+
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: $font;
 }
 </style>

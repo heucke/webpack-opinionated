@@ -40,7 +40,11 @@ module.exports = {
     historyApiFallback: true,
     noInfo: true
   },
-  devtool: 'eval-source-map'
+  devtool: 'eval-source-map',
+  babel: {
+    presets: ['es2015', 'stage-0'],
+    plugins: ['transform-runtime']
+  }
 }
 
 if (process.env.NODE_ENV === 'production') {
