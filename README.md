@@ -2,6 +2,8 @@
 
 > An opinionated Webpack setup for `vue-loader` for quick prototyping.
 
+**Wondering why I made this and how it went? Check out my [blog](http://heucke.io/web-dev/)**
+
 ### Usage
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). Includes support for Jade and Sass. This boilerplate also contains handy examples of child components, data binding, data passing, list rendering, and form binding for easy pickup of the Vue ecosystem.
