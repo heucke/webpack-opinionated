@@ -32,25 +32,23 @@ This template does not include any CSS frameworks. If you want to install your f
 $ npm install bootstrap@4.0.0-alpha.2
 ```
 
-In your `App.vue`, add these lines to the top of your style section. You can customize the default Bootstrap colors by changing the variables before importing Bootstrap.
+In a new `src/style/custom.scss`, you can customize the default Bootstrap colors.
 
 ```sass
-$blue: #42a5f5;
-$white: #f7f7f9;
+$color-primary-lighter: #98CDF9;
+$color-primary-light: #69B7F7;
+$color-primary: #42A4F5;
+$color-primary-dark: #1A8FF0;
+$color-primary-darker: #0780E4;
+$color-secondary: #F7F7F9;
 
-$brand-primary: $blue;
-$body-bg: $white;
-$component-active-color: $white;
-$btn-primary-color: $white;
-$btn-secondary-bg: $white;
-$btn-info-color: $white;
-$btn-success-color: $white;
-$btn-warning-color: $white;
-$btn-danger-color: $white;
-$input-bg: $white;
+$brand-primary: $color-primary;
+$body-bg: $color-secondary;
 
 @import '~bootstrap/scss/bootstrap-flex';
 ```
+
+Then in your `main.js`, require the file with `require('./style/custom.scss')`.
 
 ### Fork It And Make Your Own
 
