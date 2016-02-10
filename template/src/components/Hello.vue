@@ -1,7 +1,8 @@
 <template lang="jade">
-h1 \{{ msg }}
-ul
-  li(v-for='fact in facts') \{{ fact.text }}
+article
+  h1 \{{ msg }}
+  ul
+    li(v-for='fact in facts') \{{ fact.text }}
 </template>
 
 <script>
@@ -10,8 +11,8 @@ export default {
   data () {
     return {
       facts: [
-        { text: 'Visually parsing Jade is wonderful.'},
-        { text: 'Variables in Sass rock.'}
+        { text: 'Visually parsing Jade is wonderful!'},
+        { text: 'Variables in Sass rock!'}
       ]
     }
   }

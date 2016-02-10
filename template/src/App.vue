@@ -1,5 +1,5 @@
 <template lang="jade">
-#app
+section
   hello(:msg='msg')
   br
   input(type='text', v-model='msg')
