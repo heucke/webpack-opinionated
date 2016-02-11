@@ -35,11 +35,7 @@ $ npm install bootstrap@4.0.0-alpha.2
 In a new `src/style/custom.scss`, you can customize the default Bootstrap colors.
 
 ```sass
-$color-primary-lighter: #98CDF9;
-$color-primary-light: #69B7F7;
 $color-primary: #42A4F5;
-$color-primary-dark: #1A8FF0;
-$color-primary-darker: #0780E4;
 $color-secondary: #F7F7F9;
 
 $brand-primary: $color-primary;
